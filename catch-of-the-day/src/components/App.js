@@ -17,9 +17,9 @@ class App extends React.Component {
       fishes: fishes
     });
   };
-  loadSampleFishes = () => {
-    this.setState({ fishes: sampleFishes })
-  };
+  // loadSampleFishes = () => {
+  //   this.setState({ fishes: sampleFishes })
+  // };
   render() {
     return (
       <div className="catch-of-the-day">
